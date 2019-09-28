@@ -92,18 +92,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HCMA1305">
-<gates>
-<gate name="G$1" symbol="HCMA1305" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 </drawing>
