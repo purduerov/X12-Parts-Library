@@ -85,7 +85,7 @@
 </packages>
 <symbols>
 <symbol name="HCM1305">
-<description>HCMA1305</description>
+<description>HCM1305</description>
 <wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
 <wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
 <wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
@@ -95,9 +95,9 @@
 <wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90"/>
 <wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90"/>
 <text x="2.547809375" y="5.09561875" size="1.78346875" layer="95">&gt;NAME</text>
-<text x="2.54428125" y="-5.08856875" size="1.781" layer="96">&gt;VALUE</text>
 <pin name="1" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
 <pin name="2" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="5.08" y="2.54" size="1.778" layer="96" rot="R270">15 uH</text>
 </symbol>
 </symbols>
 <devicesets>
