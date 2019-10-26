@@ -85,8 +85,8 @@
 <symbols>
 <symbol name="TP">
 <circle x="0" y="3.81" radius="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94"/>
-<pin name="P$1" x="0" y="-2.54" length="middle" rot="R90"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.1524" layer="94" style="shortdash"/>
+<pin name="P$1" x="0" y="-2.54" visible="off" length="middle" rot="R90"/>
 <text x="1.778" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>

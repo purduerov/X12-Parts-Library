@@ -80,7 +80,7 @@
 <wire x1="4" y1="8" x2="4" y2="-8" width="0.1524" layer="25"/>
 <wire x1="4" y1="-8" x2="-4" y2="-8" width="0.1524" layer="26"/>
 <wire x1="-4" y1="-8" x2="-4" y2="8" width="0.1524" layer="25"/>
-<text x="0" y="1" size="1.778" layer="1">&gt;name</text>
+<text x="0" y="1" size="1.778" layer="25">&gt;name</text>
 </package>
 </packages>
 <symbols>
