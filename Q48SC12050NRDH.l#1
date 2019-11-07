@@ -74,21 +74,22 @@
 <library>
 <packages>
 <package name="Q48SC12050NRDH">
-<pad name="48V" x="0" y="0" drill="1.6"/>
-<pad name="ON/OFF" x="0" y="7.62" drill="1.6"/>
-<pad name="48V_GND" x="0" y="15.24" drill="1.6"/>
-<pad name="12V" x="50.8" y="0" drill="2.1"/>
-<pad name="TRIM" x="50.8" y="7.62" drill="1.6"/>
-<pad name="SENSE+" x="50.8" y="3.81" drill="1.6"/>
-<pad name="SENSE-" x="50.8" y="11.43" drill="1.6"/>
-<pad name="12V_GND" x="50.8" y="15.24" drill="2.1"/>
-<pad name="SMBALERT" x="53.34" y="7.62" drill="1.2"/>
-<pad name="PMBCLK" x="53.34" y="5.62" drill="1.2"/>
-<pad name="ADDR1" x="53.34" y="3.62" drill="1.2"/>
-<pad name="PMBDATA" x="53.34" y="9.62" drill="1.2"/>
-<pad name="DGND" x="53.34" y="11.62" drill="1.2"/>
-<pad name="C2" x="53.34" y="13.62" drill="1.2"/>
-<pad name="ADDR0" x="53.34" y="1.62" drill="1.2"/>
+<pad name="P$1" x="0" y="0" drill="1.6"/>
+<pad name="P$2" x="0" y="3.81" drill="1.6"/>
+<pad name="P$3" x="0" y="7.62" drill="1.6"/>
+<pad name="P$4" x="0" y="15.24" drill="1.6"/>
+<pad name="P$5" x="50.8" y="0" drill="2.1"/>
+<pad name="P$6" x="50.8" y="7.62" drill="1.6"/>
+<pad name="P$7" x="50.8" y="3.81" drill="1.6"/>
+<pad name="P$8" x="50.8" y="11.43" drill="1.6"/>
+<pad name="P$9" x="50.8" y="15.24" drill="2.1"/>
+<pad name="P$10" x="53.34" y="7.62" drill="1.2"/>
+<pad name="P$11" x="53.34" y="5.62" drill="1.2"/>
+<pad name="P$12" x="53.34" y="3.62" drill="1.2"/>
+<pad name="P$13" x="53.34" y="9.62" drill="1.2"/>
+<pad name="P$14" x="53.34" y="11.62" drill="1.2"/>
+<pad name="P$15" x="53.34" y="13.62" drill="1.2"/>
+<pad name="P$16" x="53.34" y="1.62" drill="1.2"/>
 <wire x1="-4.3" y1="26.54" x2="55.1" y2="26.54" width="0.127" layer="21"/>
 <wire x1="55.1" y1="26.54" x2="55.1" y2="-11.26" width="0.127" layer="21"/>
 <wire x1="55.1" y1="-11.26" x2="-4.3" y2="-11.26" width="0.127" layer="21"/>
@@ -99,6 +100,7 @@
 <symbol name="Q48SC12050NRDH">
 <pin name="VIN(+)" x="-17.78" y="12.7" length="middle"/>
 <pin name="ON/OFF" x="-17.78" y="5.08" length="middle"/>
+<pin name="CASE" x="-17.78" y="-2.54" length="middle"/>
 <pin name="VIN(-)" x="-17.78" y="-10.16" length="middle"/>
 <pin name="VOUT(+)" x="17.78" y="20.32" length="middle" rot="R180"/>
 <pin name="SENSE(+)" x="17.78" y="12.7" length="middle" rot="R180"/>
@@ -126,21 +128,22 @@
 <devices>
 <device name="" package="Q48SC12050NRDH">
 <connects>
-<connect gate="G$1" pin="ADDR0" pad="ADDR0"/>
-<connect gate="G$1" pin="ADDR1" pad="ADDR1"/>
-<connect gate="G$1" pin="C2" pad="C2"/>
-<connect gate="G$1" pin="DGND" pad="DGND"/>
-<connect gate="G$1" pin="ON/OFF" pad="ON/OFF"/>
-<connect gate="G$1" pin="PMBCLK" pad="PMBCLK"/>
-<connect gate="G$1" pin="PMBDATA" pad="PMBDATA"/>
-<connect gate="G$1" pin="SENSE(+)" pad="SENSE+"/>
-<connect gate="G$1" pin="SENSE(-)" pad="SENSE-"/>
-<connect gate="G$1" pin="SMBALERT" pad="SMBALERT"/>
-<connect gate="G$1" pin="TRIM" pad="TRIM"/>
-<connect gate="G$1" pin="VIN(+)" pad="48V"/>
-<connect gate="G$1" pin="VIN(-)" pad="48V_GND"/>
-<connect gate="G$1" pin="VOUT(+)" pad="12V"/>
-<connect gate="G$1" pin="VOUT(-)" pad="12V_GND"/>
+<connect gate="G$1" pin="ADDR0" pad="P$15"/>
+<connect gate="G$1" pin="ADDR1" pad="P$14"/>
+<connect gate="G$1" pin="C2" pad="P$16"/>
+<connect gate="G$1" pin="CASE" pad="P$2"/>
+<connect gate="G$1" pin="DGND" pad="P$12"/>
+<connect gate="G$1" pin="ON/OFF" pad="P$3"/>
+<connect gate="G$1" pin="PMBCLK" pad="P$13"/>
+<connect gate="G$1" pin="PMBDATA" pad="P$11"/>
+<connect gate="G$1" pin="SENSE(+)" pad="P$8"/>
+<connect gate="G$1" pin="SENSE(-)" pad="P$7"/>
+<connect gate="G$1" pin="SMBALERT" pad="P$10"/>
+<connect gate="G$1" pin="TRIM" pad="P$6"/>
+<connect gate="G$1" pin="VIN(+)" pad="P$4"/>
+<connect gate="G$1" pin="VIN(-)" pad="P$1"/>
+<connect gate="G$1" pin="VOUT(+)" pad="P$9"/>
+<connect gate="G$1" pin="VOUT(-)" pad="P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
