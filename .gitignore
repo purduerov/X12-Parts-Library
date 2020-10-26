@@ -5,6 +5,8 @@
 *.b#?
 *.l#?
 
+.DS_Store
+
 *.zip
 
 
